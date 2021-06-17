@@ -1,7 +1,7 @@
 .css-typing {
     width: 360px;
   
-    white-space: nowrap;
+    white-space: pre;
     overflow: hidden;
     -webkit-animation: type 3s steps(50, end);
     animation: type 3s steps(55, end);
