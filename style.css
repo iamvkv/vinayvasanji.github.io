@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .type {
-  width: 100%;
+  width: 75%;
   animation: typing 3.5s steps(35, end), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -18,11 +18,15 @@
           width: 0
         }
         to {
-          width: 100%
+          width: 75%
         }
       }
-@keyframes blink {
-  100% {
-    border-color: transparent
-  }
-}
+@keyframes blinking-cursor {
+        from,
+        to {
+          border-color: transparent
+        }
+        75% {
+          border-color: white;
+        }
+      }
