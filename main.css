@@ -8,8 +8,8 @@
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: typing 5s steps(33, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    font-size: 2vw;
+    white-space: normal;
+    font-size: 2vmax;
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;
