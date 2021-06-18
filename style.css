@@ -5,8 +5,8 @@
   justify-content: center;
 }
 .type {
-  width: 50%;
-  animation: typing 2s steps(34, end), blink .5s step-end infinite alternate;
+  width: 100%;
+  animation: typing 2s steps(34), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
