@@ -6,12 +6,12 @@
 }
 .type {
   width: 100%;
-  animation: typing 3.5s steps(50), blink .5s step-end infinite alternate;
+  animation: typing 3.5s steps(35, end), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 1em;
+  font-size: 2em;
 }
 @keyframes typing {
         from {
