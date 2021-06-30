@@ -7,7 +7,7 @@
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: typing 5s steps(23, end), blink .75s step-end infinite;
+ 	animation: typing 3.5s steps(23, end), blink .75s step-end infinite;
     white-space: nowrap;
     font-size: 2vmax;
     font-weight: 700;
